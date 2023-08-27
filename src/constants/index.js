@@ -1,17 +1,17 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { people01, people02, people03, github,  linkedin,  airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
 
 export const navLinks = [
   {
-    id: "home",
-    title: "Home",
+    id: "desk",
+    title: "O Escritório",
   },
   {
     id: "features",
-    title: "Características",
+    title: "Artigos",
   },
   {
     id: "product",
-    title: "Produtos",
+    title: "Fale Conosco",
   },
   {
     id: "clients",
@@ -23,23 +23,23 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Recompensas",
+    title: "Consultoria Jurídica",
     content:
-      "Os melhores cartões de crédito oferecem algumas combinações tentadoras de promoções e prêmios",
+      "Combinamos expertise jurídica e abordagens inovadoras para atender às necessidades variadas de nossos clientes",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Seguro",
+    title: "Assessoria Jurídica",
     content:
-      "Tomamos medidas proativas para garantir que suas informações e transações estejam seguras.",
+      "Assessoria jurídica, englobando uma diversidade abrangente de áreas do direito.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Transferência de Saldo",
+    title: "Análise Processual",
     content:
-      "Um cartão de crédito de transferência de saldo pode economizar muito dinheiro em juros.",
+      "Refinamento e avaliação de contratos, abrangendo tanto indivíduos quanto questões de âmbito social.",
   },
 ];
 
@@ -47,25 +47,22 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
+      "Quero agradecer ao doutores por todo empenho para resolver meu caso.",
+    name: "Maria Célia",
     img: people01,
   },
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
+      "Sem dúvida o melhor escritório de advocacia .Parabéns pelo empenho e agilidade",
+    name: "Pedro Mark",
     img: people02,
   },
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
+      "Excelentes advogados , preços justo e serviço eficiente.",
+    name: "Rafael Silva",
     img: people03,
   },
 ];
@@ -73,39 +70,39 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "Usuário ativo",
+    title: "Clientes Atendidos",
     value: "2800+",
   },
   {
     id: "stats-2",
-    title: "Confiável pela empresa",
-    value: "230+",
+    title: "Advogados",
+    value: "30+",
   },
   {
     id: "stats-3",
-    title: "Transação",
-    value: "$230M+",
+    title: "Prêmiações",
+    value: "28M+",
   },
 ];
 
 export const footerLinks = [
   {
-    title: "Useful Links",
+    title: "Institucional",
     links: [
       {
-        name: "Content",
+        name: "Como funciona",
         link: "https://www.hoobank.com/content/",
       },
       {
-        name: "How it Works",
+        name: "O Escritório",
         link: "https://www.hoobank.com/how-it-works/",
       },
       {
-        name: "Create",
+        name: "Artigos",
         link: "https://www.hoobank.com/create/",
       },
       {
-        name: "Explore",
+        name: "Contato",
         link: "https://www.hoobank.com/explore/",
       },
       {
@@ -115,61 +112,55 @@ export const footerLinks = [
     ],
   },
   {
-    title: "Community",
+    title: "Áreas de Atuação",
     links: [
       {
-        name: "Help Center",
+        name: "Direito Criminal",
         link: "https://www.hoobank.com/help-center/",
       },
       {
-        name: "Partners",
+        name: "Direito do Comsumidor",
         link: "https://www.hoobank.com/partners/",
       },
       {
-        name: "Suggestions",
+        name: "Direito de Família",
         link: "https://www.hoobank.com/suggestions/",
+      },
+      {
+        name: "Direito Trabalhista",
+        link: "https://www.hoobank.com/newsletters/",
       },
       {
         name: "Blog",
         link: "https://www.hoobank.com/blog/",
       },
-      {
-        name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
-      },
+     
     ],
   },
   {
-    title: "Partner",
+    title: "Endereço",
     links: [
       {
-        name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
+        name: "Rua José Otávio Correia Lima",
+        link: "",
       },
       {
-        name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
+        name: "Brasília-DF",
+        link: "",
       },
     ],
   },
+  
 ];
 
 export const socialMedia = [
-  {
-    id: "social-media-1",
-    icon: instagram,
-    link: "https://www.instagram.com/",
-  },
+  
   {
     id: "social-media-2",
-    icon: facebook,
-    link: "https://www.facebook.com/",
+    icon: github,
+    link: "https://github.com/AmandaLuizaFreitas",
   },
-  {
-    id: "social-media-3",
-    icon: twitter,
-    link: "https://www.twitter.com/",
-  },
+ 
   {
     id: "social-media-4",
     icon: linkedin,
