@@ -12,7 +12,7 @@ const Billing = () => {
      </div>
      <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>Nosso Time de Advogados  </h2>
-      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>permitindo-nos assegurar resultados superiores com agilidade, responsabilidade e sólidos princípios éticos. Nossa dedicação a um atendimento de excelência reflete nosso compromisso inabalável com a satisfação dos clientes que confiam em nossos serviços.</p>
+      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>Permitindo-nos assegurar resultados superiores com agilidade, responsabilidade e sólidos princípios éticos. Nossa dedicação a um atendimento de excelência reflete nosso compromisso inabalável com a satisfação dos clientes que confiam em nossos serviços.</p>
      
      </div>
     </section>

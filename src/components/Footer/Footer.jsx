@@ -1,5 +1,6 @@
 import styles from "../../style";
 import { logo } from "../../assets";
+
 import { footerLinks,socialMedia } from "../../constants";
 export const Footer = () => {
   return (
@@ -26,17 +27,20 @@ export const Footer = () => {
           </div>
         ))}
        </div>
+      
      </div>
      <div className="w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#3F3E45]">
       <p className="font-poppins font-normal text-center text-[18px] leading-[27px] text-dimBlue">2023 LexJuri. Todos os direitos reservados.</p>
+      
        <div className="flex flex-row md:mt-0 mt-6">
         {socialMedia.map((social,index)=>(
-          <img key={social.id} src={social.icon}  alt={social.id} 
+          <a href={social.link}  key={social.id}>
+          <img  src={social.icon}  alt={social.id} 
            className={`w-[21px] h-[21px] md:ml-2 ml-1 object-contain cursor-pointer${index !== socialMedia.length - 1 ? "mr-6" : "mr-0" }`
           
           }
           />
-
+            </a>
         ))}
        </div>
      </div>
