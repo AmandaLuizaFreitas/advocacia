@@ -11,9 +11,6 @@ Foi usado : React , Tailwindcss , JavaScript,
 
  [ 🔗Link do projeto](https://advocacia-gamma.vercel.app/)
 
- Instale my-project com npm
 
-```bash
-  npm install my-project
-  cd my-project
-```
+
+
